@@ -6,6 +6,10 @@
 
 * {
     margin: 0;
+    font-style: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
 }
 
 html,
