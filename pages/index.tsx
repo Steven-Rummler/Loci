@@ -26,7 +26,6 @@ export default function Home() {
 
 function Loci() {
   const {data, isLoading, isError} = useQuery('loci', async () => {
-    console.log(api);
     const result = await fetch(`${api}/loci`)
     return await result.json()
   })
